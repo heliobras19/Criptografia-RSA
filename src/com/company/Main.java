@@ -41,8 +41,6 @@ public class Main {
                     keys.n = new BigInteger(String.valueOf(in.nextInt()));
                     System.out.println("E: ");
                     keys.e = new BigInteger(String.valueOf(in.nextInt()));
-
-                    break;
                 }
                 Encrypt encrypt = new Encrypt(keys.n, keys.e);
                 ReadFile readFile = new ReadFile();
